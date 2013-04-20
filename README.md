@@ -40,7 +40,7 @@ Bootstrapping Your First Project with NMS
 * Modify the skeleton project to your heart's content:
   * remove the _.git_ folder.
   * run _git init_.
-  * add your new project as the master, _git remote add master your-project-name.git_
+  * add your new project as the origin, _git remote add origin your-project-name.git_
   * edit the package.json, make it your own.
 * Once you've built a killer library, make sure to publish it on NPM:
   * _npm adduser_
