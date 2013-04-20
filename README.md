@@ -1,7 +1,9 @@
 Node Mocha Skeleton
 ===================
 
-NMS demonstrates the approach I've gradually developed for structuring my Node.JS libraries:
+NMS is a skeleton for building libraries in Node.JS. Clone the repo, and use it as a jumping-off point.
+
+It demonstrates the approach I've gradually developed over the years for structuring my Node.JS libraries:
 
 * it provides ready-to-run examples of the __mocha__ testing framework.
 * it demonstrates the usage of __underscore__, as a way to prettify array and object manipulation.
