@@ -1,0 +1,28 @@
+{
+  "name": "node-mocha-skeleton",
+  "version": "0.0.1",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin",
+    "spec": "./spec"
+  },
+  "main": "./lib/index.js",
+  "author": "Ben Coe <bencoe@gmail.com>",
+  "engines": [
+    "node"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "description": "A skeleton Node.JS project, with Mocha for testing.",
+  "keywords": ['skeleton', 'mocha'],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bcoe/node-mocha-skeleton.git"
+  },
+  "dependencies": {
+    "mocha": ">=1.7.4",
+    "underscore": ">=1.4.3",
+    "optimist": ">=0.3.4"
+  }
+}
