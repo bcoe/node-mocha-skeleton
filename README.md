@@ -7,7 +7,7 @@ NMS demonstrates the approach I've gradually developed for structuring my Node.J
 * it demonstrates the usage of __underscore__, as a way to prettify array and object manipulation.
 * it demonstrates the usage of __optimist__, a great library for simplifying the building of command-line applications.
 
-Basic Directory Structure
+Directory Structure
 -------------------------
 
 * __lib/__ this is where all of your applications code will be stored. I approach my design in an OOP manner; hello.js contains a Hello class, banana.js a Banana class, etc.
