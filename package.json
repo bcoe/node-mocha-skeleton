@@ -15,7 +15,7 @@
     "test": "make test"
   },
   "description": "A skeleton Node.JS project, with Mocha for testing.",
-  "keywords": ['skeleton', 'mocha'],
+  "keywords": ["skeleton", "mocha"],
   "repository": {
     "type": "git",
     "url": "git://github.com/bcoe/node-mocha-skeleton.git"

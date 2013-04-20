@@ -23,9 +23,29 @@ Library Dependencies
 There are a few libraries that I pull into almost every Node.JS project that I begin:
 
 * __[mocha](https://github.com/visionmedia/mocha)__ mocha is a light-weight testing framework for JavaScript. It provides both BDD and TDD interfaces, allowing you to choose whichever you feel more comfortable with.
-* __underscore__ underscore provides functional programming constructs: map, reduce, extend, etc. It really helps to cleanup the logic surrounding array and object manipulation my applications.
-* __optimist__ optimst is a simple, powerful, command-line-argument parser.
+* __[underscore](https://github.com/documentcloud/underscore)__ underscore provides functional programming constructs: map, reduce, extend, etc. It really helps to cleanup the logic surrounding array and object manipulation my applications.
+* __[optimist](https://github.com/substack/node-optimist)__ optimst is a simple, powerful, command-line-argument parser.
 
+Bootstrapping Your First Project with NMS
+-----------------------------------------
+
+* Install the [current stable version of Node.JS](http://nodejs.org/download/)
+  * NPM is now packaged along with Node.JS, hooray!
+* Clone this repo _git clone git://github.com/bcoe/node-mocha-skeleton.git your-project-name_
+* Run _npm install_ within the project directory.
+* Run _npm test_.
+* all tests should pass, if they don't:
+  * try to fix any obvious dependency issues, do you have __make__ installed?
+  * is the problem my fault, create an issue on this project.
+* Modify the skeleton project to your heart's content:
+  * remove the _.git_ folder.
+  * run _git init_.
+  * add your new project as the master, _git remote add master your-project-name.git_
+  * edit the package.json, make it your own.
+* Once you've built a killer library, make sure to publish it on NPM:
+  * _npm adduser_
+  * _npm publish_
+  * _npm update_ when you roll new versions.
 
 Copyright
 ---------
