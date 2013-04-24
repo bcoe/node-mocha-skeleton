@@ -1,4 +1,5 @@
 var assert = require('assert'),
+  sinon = require('sinon'),
   Hello = require('../lib').Hello;
 
 describe('Hello', function() {
@@ -32,6 +33,25 @@ describe('Hello', function() {
         done();
       });
     });
+
+  });
+
+  // An example of using sinon to spy on function calls.
+  describe('#sayHelloThenSayHelloLater', function() {
+
+    it('should invoke both #sayHello and #sayHelloLater', function() {
+      var hello = new Hello();
+      
+      // stub the sayHello and sayHelloLater methods
+      // with sinon.
+      hello.sayHello = sinon.spy();
+      hello.sayHelloLater = sinon.spy();
+
+      hello.sayHelloThenSayHelloLater();
+
+      assert.equal(hello.sayHello.callCount, 1);
+      assert.equal(hello.sayHelloLater.callCount, 1);
+    })
 
   });
 });

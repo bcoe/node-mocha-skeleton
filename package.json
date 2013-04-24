@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "mocha": ">=1.7.4",
+    "sinon": ">=1.6.0",
     "underscore": ">=1.4.3",
     "optimist": ">=0.3.4"
   }

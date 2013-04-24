@@ -27,6 +27,7 @@ There are a few libraries that I pull into almost every Node.JS project that I b
 * __[mocha](https://github.com/visionmedia/mocha)__ mocha is a light-weight testing framework for JavaScript. It provides both BDD and TDD interfaces, allowing you to choose whichever you feel more comfortable with.
 * __[underscore](https://github.com/documentcloud/underscore)__ underscore provides functional programming constructs: map, reduce, extend, etc. It really helps to cleanup the logic surrounding array and object manipulation my applications.
 * __[optimist](https://github.com/substack/node-optimist)__ optimst is a simple, powerful, command-line-argument parser.
+* __[sinon](https://github.com/cjohansen/Sinon.JS)__ sinon sinon is a stand-alone testing framework. I use it specifically for its stubbing functionality.
 
 Bootstrapping Your First Project with NMS
 -----------------------------------------
